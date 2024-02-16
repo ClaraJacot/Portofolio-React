@@ -1,0 +1,58 @@
+{
+    "skills": [
+        {
+            "id":"1",
+            "src":"./img/cosima.png",
+            "title": "Front-end",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id":"2",
+            "src":"./img/cosima.png",
+            "title": "Back-end",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id":"3",
+            "src":"./img/DA-meeting.png",
+            "title": "autre skills",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id":"4",
+            "src":"./img/DA-meeting.png",
+            "title": "encore un autre skills",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    ],
+    "portofolio": [
+        {
+            "id":"1",
+            "src":"./img/pico8.png",
+            "title": "Intersections-Pico 8",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "link": "https://clarajacot.github.io/Pico8/"
+        },
+        {
+            "id":"2",
+            "src":"./img/pico8.png",
+            "title": "Dataviz-Api",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "link":"https://clarajacot.github.io/dataviz-api/"
+        },
+        {
+            "id":"3",
+            "src":"./img/pico8.png",
+            "title": "Accessibility Tools- Extension Chrome",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "link":"https://github.com/ClaraJacot/Extension-navigateur/blob/main/README.md"
+        },
+        {
+            "id":"4",
+            "src":"./img/pico8.png",
+            "title": "Calendrier de l'Avent",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "link":"https://clarajacot.github.io/Projets-perso/"
+        }
+    ]
+}
