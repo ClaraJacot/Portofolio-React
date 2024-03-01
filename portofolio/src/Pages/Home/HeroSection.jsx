@@ -6,20 +6,20 @@ export default function HeroSection () {
                 <div className="hero-section-content">
                     <p className="section-title">Salut, Je suis Clara J.</p>
                     <h1 className="hero-section-title">
-                        <span className="hero-section-title-color">Developpeuse</span>{""}
+                        <span className="hero-section-title-color">Développeuse</span>{""}
                         <br/>
                         Full-Stack
                     </h1>
                     <p className="hero-section-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolore iusto consequatur aut quis non cumque, magnam consectetur neque sed? Veritatis, saepe dignissimos consequuntur autem eum nam quisquam quia repudiandae.
-                        <b/>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur expedita quisquam!
+                        Actuellement en reconversion professionnelle, je suis la formation de "concepteur développeur d'applications" chez <a href="https://adatechschool.fr/programme/" target="_blank">Ada Tech School</a> Lyon. 
+                        <br/>
+                        Je suis à la recherche d'une alternance de 12 mois, sur un rythme de 4 jours/semaine en entreprise.
                     </p>
                 </div>
                 <Link to="skills--section"><button className="btn btn-primary">Découvrez mes skills</button></Link>
             </div>
             <div className ="hero-section-img">
-                <img src="./img/hero_img.png" alt="Hero Section"/>
+                <img src="./img/moi.png" alt="Hero Section"/>
             </div>
         </section>
     )

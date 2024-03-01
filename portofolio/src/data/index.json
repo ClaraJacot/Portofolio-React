@@ -4,25 +4,25 @@
             "id":"1",
             "src":"./img/cosima.png",
             "title": "Front-end",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "description":"Maitrise des bases de HTML, CSS, JS, React, Vite"
         },
         {
             "id":"2",
-            "src":"./img/cosima.png",
+            "src":"./img/archives.png",
             "title": "Back-end",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "description":"Maitrise des bases de PHP, Mysqli, PhpMyAdmin, MAMP, notions de C et de Python"
         },
         {
             "id":"3",
             "src":"./img/DA-meeting.png",
-            "title": "autre skills",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "title": "Travail en équipe",
+            "description":"Médiatrice, leader ou follower, je m'adapte selon les besoins de l'équipe. Efficace en gestion de projet, j'utilise la méthode Agile au quotidien (SCRUM)."
         },
         {
             "id":"4",
-            "src":"./img/DA-meeting.png",
-            "title": "encore un autre skills",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "src":"./img/autonomie.png",
+            "title": "Autonomie",
+            "description":"Curiosité, débrouillardise et passion d'apprendre font de mes moments de solitude des périodes de travail confortables et efficaces."
         }
     ],
     "portofolio": [
@@ -30,29 +30,36 @@
             "id":"1",
             "src":"./img/pico8.png",
             "title": "Intersections-Pico 8",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description":"Petit jeu rétro codé en Lua sur la Fantasy Consol Pico 8 en 7 jours en groupe de trois. Basé sur un système rpg en monde ouvert, le ou la joueuse doit se rendre à un endroit, après avoir accompli quelques bonnes actions pour accumuler du score. Le jeu permet d'expérimenter l'intersectionnalité : selon le personnage choisi, les interactions avec les autres pnj seront plus ou moins energivore selon les discriminations à l'oeuvre...",
             "link": "https://clarajacot.github.io/Pico8/"
         },
         {
             "id":"2",
-            "src":"./img/pico8.png",
+            "src":"./img/dataviz.png",
             "title": "Dataviz-Api",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description":"Projet de visualisation de data avec appel à une API en HTML/CSS/JS (7 jours, groupe de trois). Basé sur la consommation d'eau/jour en France, plus spécifiquement à Villeurbanne, avec une visualisation en temps réel du niveau piezométrique de la nappe phréatique de Villeurbanne. Utilisation des bibliothèques anime.js et chart.js. NB: le temps de latence de l'affichage des fonds d'écran est du à l'hébergement Github.",
             "link":"https://clarajacot.github.io/dataviz-api/"
         },
         {
             "id":"3",
-            "src":"./img/pico8.png",
+            "src":"./img/extension.png",
             "title": "Accessibility Tools- Extension Chrome",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description":"Développement d'une extension Chrome pour l'accessibilité web en HTML/CSS/JS/JSON (7 jours, groupe de trois). L'extension permet à l'utilisateur.trice de zoomer/dézoomer sur la page, changer la couleur de fond et/ou la couleur du texte sur un site choisi, activer la lecture bionique et/ou un nouveau curseur de souris sur l'intégralité du navigateur, ainsi que lancer la lecture audio d'un paragraphe selectionné.",
             "link":"https://github.com/ClaraJacot/Extension-navigateur/blob/main/README.md"
         },
         {
             "id":"4",
-            "src":"./img/pico8.png",
+            "src":"./img/calendrier.png",
             "title": "Calendrier de l'Avent",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "description":"Projet personnel de calendrier de l'avent en HTML/CSS/JS où chaque jour donne droit à l'ouverture d'une modal proposant un film, avec plusieurs informations sur ce dernier ainsi que son lien de streaming. Utilisation de la bibliothèque particule.js pour l'animation de la neige et AOS pour l'animation au scroll.",
             "link":"https://clarajacot.github.io/Projets-perso/"
+        },
+        {
+            "id":"5",
+            "src":"./img/reseau.png",
+            "title":"Réseau Social- PHP/Mysqli/MAMP",
+            "description":"Projet en groupe de trois en 7 jours, partir d'une codebase existante simple et buguée, la refactorer, la réparer, développer des nouvelles fonctionnalités pour produire un réseau social fonctionnel avec système de mur, de flux, de hashtags, d'abonnement, de like, etc.",
+            "link":"https://github.com/ClaraJacot/reseau-social-php"
         }
     ]
 }

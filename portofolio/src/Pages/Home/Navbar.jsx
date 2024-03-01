@@ -35,7 +35,7 @@ function Navbar(){
     return (
         <nav className ={`navbar ${navActive? "active" : ""}`}>
             <div>
-                <img src = "./img/dna1.png" alt="logo"/>
+                <img src = "./img/dna6.png" alt="logo"/>
             </div>
             <a className={`nav__hamburger ${navActive? "active": ""}`} onClick={toggleNav}>
                 <span className="nav__hamburger__line"></span>
@@ -65,9 +65,9 @@ function Navbar(){
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to= "MyPortofolio"
+                        to= "skills--section"
                         className="navbar--content"
-                        >Portofolio
+                        >Skills
                         </Link>
                     </li>
                     <li>
@@ -78,11 +78,25 @@ function Navbar(){
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to= "about--section"
+                        to= "AboutMe"
                         className="navbar--content"
-                        >About me
+                        >À propos
                         </Link>
                     </li>
+                    <li>
+                        <Link 
+                        onClick={closeMenu} 
+                        activeClass="navbar--active-content"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        to= "MyPortofolio"
+                        className="navbar--content"
+                        >Portfolio
+                        </Link>
+                    </li>
+                    
                 </ul>
             </div>
             <Link 
@@ -94,7 +108,7 @@ function Navbar(){
             duration={500}
             to= "contact--section"
             className="btn btn-outline-primary">
-            Contact Me
+            Contactez Moi
             </Link>
         </nav>
     );

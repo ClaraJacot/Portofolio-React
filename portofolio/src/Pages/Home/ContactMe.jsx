@@ -1,62 +1,37 @@
+import { useState } from 'react';
 export default function ContactMe () {
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
     return(
         <section id="contact" className="contact--section">
             <div> 
                 <p className="sub-title">Get in Touch</p>
                 <h2>Contactez Moi</h2>
                 <p className="test-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus provident quam expedita eaque unde ullam ratione ipsa rerum? Quisquam quae facilis debitis nemo aliquam nobis suscipit veniam totam beatae.
+                Que vous vouliez me proposer une alternance, me poser des questions sur Ada Tech School<br></br> et ma formation, ou discuter de mes projets, je serai ravie de vous répondre!
                 </p>
             </div>
-        <form className="contact--form--container">
-            <div className="container">
-                <label htmlFor="first-name" className="contact--label">
-                    <span className="text-md">Prénom</span>
-                    <input 
-                    type="text"
-                    className="contact--input text-md"
-                    name="first-name"
-                    id="first-name"
-                    required
-                    />
-                </label>
-                <label htmlFor="last-name" className="contact--label">
-                    <span className="text-md">Nom</span>
-                    <input 
-                    type="text"
-                    className="contact--input text-md"
-                    name="last-name"
-                    id="last-name"
-                    required
-                    />
-                </label>
-                <label htmlFor="email" className="contact--label">
-                    <span className="text-md">Email</span>
-                    <input 
-                    type="email"
-                    className="contact--input text-md"
-                    name="email"
-                    id="email"
-                    required
-                    />
-                </label>
-            </div>
+        <form method="post" className="contact--form--container" action={`mailto:clara.jacot@gmail.com?subject=${subject}&body=${message}`}>
+            
             <label htmlFor="choose-topic" className="contact--label">
                 <span className="text-md">Choisir un sujet</span>
-                <select id="choose-topic" className="contact--input text-md">
-                        <option>Selectionner</option>
-                        <option>Alternance</option>
-                        <option>Ada</option>
-                        <option>Portofolio</option>
+                <select id="choose-topic" className="contact--input text-md" value={subject}  onChange={e => setSubject(e.target.value)}>
+                        <option value="select">Sélectionner</option>
+                        <option value="Alternance">Alternance</option>
+                        <option value="Ada">Ada</option>
+                        <option value="Portfolio">Portfolio</option>
                 </select> 
             </label>
             <label htmlFor="message" className="contact--label">
                     <span className="text-md">Message</span>
-                    <textarea  
+                    <textarea 
+                    value={message} 
+                    onChange={e=> setMessage(e.target.value)}
                     className="contact--input text-md"
                     id="message"
                     rows="8"
                     placeholder="Ecrivez votre message..."
+                    name='msg'
                     />
             </label>
             <label htmlFor="checkbox" className="checkbox--label">
@@ -66,10 +41,10 @@ export default function ContactMe () {
                     id="checkbox"
                     required
                     />
-                    <span className="text-sm">J'accepte les termes</span>
+                    <span className="text-sm">Autoriser à ouvrir votre application de mail par défaut</span>
             </label>
             <div>
-                <button className="btn btn-primary contact--form--btn">Envoyer</button>
+                <button className="btn btn-primary contact--form--btn">Envoyer un mail</button>
             </div>
         </form>
     </section>
