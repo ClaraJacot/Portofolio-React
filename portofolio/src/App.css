@@ -125,7 +125,7 @@ h3 {
   font-size: normal;
   font-weight: 400;
   line-height: 24px;
-  text-align: justify;
+  text-align: center;
 }
 /*body3*/
 .text-sm{
@@ -243,7 +243,7 @@ h3 {
 .hero-section-img > img {
   width: 80%;
   height: 100%;
-  border-radius: 280px;
+  border-radius: 360px;
   border: solid var(--primary);
   box-shadow: var(--white) 0 0 20px 10px;
 
@@ -323,7 +323,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  text-align: justify;
+  text-align: center;
 }
 
 /*About Us Style*/
@@ -374,8 +374,7 @@ h3 {
 }
 .portofolio--section--container{
   display: grid;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: start;
   width: 100%;
   gap: 42.6px;
   padding: 42px;
@@ -642,13 +641,12 @@ input[type="checkbox"] {
     padding-bottom: 70px;
   }
   .about--section {
-    gap: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .hero-section-title,
   .skills--section--heading,
-  
   .hero-section-content-box {
     gap: 10px;
   }
@@ -681,7 +679,6 @@ input[type="checkbox"] {
   height: 1.313rem;
   flex-direction: column;
   justify-content: space-around;
-  position: absolute;
   top: 25px;
   right: 25px;
 }
@@ -744,4 +741,31 @@ input[type="checkbox"] {
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
+}
+@media screen and (max-width: 550px) {
+  .hero-section-title,.skills--section--heading{
+    font-size: 45px;
+  }
+  .hero-section-description{
+    font-size: 20px;
+    
+  }
+  .navbar{
+    padding: 10px 20px;
+  }
+  .navbar > img {
+    width: 50%;
+
+  }
+  .portofolio--section, .about--section{
+    padding: 65px 45px;
+    gap: 50px;
+  }
+  .portofolio--section--card--content{
+    padding: 15px;
+  }
+  .contact--section{
+    padding: 60px 40px;
+  }
+  
 }
