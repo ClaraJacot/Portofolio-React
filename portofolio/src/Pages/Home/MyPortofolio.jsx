@@ -32,7 +32,7 @@ export default function MyPortofolio () {
                 </div>
             </div>
             <div className="portofolio--section--container">
-                {data?.portofolio?.map((item,index) => (
+                {data?.portofolio?.toReversed().map((item,index) => (
                     <div key={index} className="portofolio--section--card">
                         <div className="portofolio--section--img">
                             <img src={item.src} alt="Placeholder"/>
