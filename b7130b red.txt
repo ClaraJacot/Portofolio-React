@@ -1,5 +1,0 @@
-b7130b red
-06865d green
-f6cf15 jaune
-0bb6e2 blue
-eee0da beige
