@@ -2,15 +2,14 @@
     "skills": [
         {
             "id":"1",
-            "src":"./img/cosima.png",
-            "title": "Front-end",
-            "description":"Maitrise des bases de HTML, CSS, JS, React, Vite"
-        },
-        {
-            "id":"2",
             "src":"./img/archives.png",
             "title": "Back-end",
-            "description":"Maitrise des bases de PHP, Mysqli, PhpMyAdmin, MAMP, notions de C et de Python"
+            "description":"PHP (Laravel), Node.js, Express, Java (Spring), MySql, PostgrSQL, MongoDB, notions de C et de Python"
+        },{
+            "id":"2",
+            "src":"./img/cosima.png",
+            "title": "Front-end",
+            "description":"HTML, CSS, Tailwind, JavaScript, React, Vite, Laravel/Blade"
         },
         {
             "id":"3",
@@ -23,6 +22,12 @@
             "src":"./img/autonomie.png",
             "title": "Autonomie",
             "description":"Curiosité, débrouillardise et passion d'apprendre font de mes moments de solitude des périodes de travail confortables et efficaces."
+        },
+        {
+            "id":"5",
+            "src": "./img/outils.jpg",
+            "title": "Environnement",
+            "description": "Git, Github, VS Code, IntelliJ, VS 2022, MAMP, Docker"
         }
     ],
     "portofolio": [
@@ -59,14 +64,36 @@
             "src":"./img/reseau.png",
             "title":"Réseau Social- PHP/Mysqli/MAMP",
             "description":"Projet en groupe de trois en 7 jours, partir d'une codebase existante simple et buguée, la refactorer, la réparer, développer des nouvelles fonctionnalités pour produire un réseau social fonctionnel avec système de mur, de flux, de hashtags, d'abonnement, de like, etc.",
-            "link":"https://github.com/ClaraJacot/reseau-social-php"
+            "link":"https://github.com/ClaraJacot/reseau-social-php/blob/main/README.md"
         },
         {
             "id":"6",
             "src":"./img/meubles.png",
-            "title":"Plateforme de vente de meubles-JAVA,MySQL,API REST avec Spring/React",
-            "description":"(En cours) Projet en deux groupes de 5 sur 7 jours, un groupe Front et un groupe Back avec échange en milieu de projet. Architecture MVC, création d'une API REST pour dialoguer entre les deux groupes, la plateforme gère une page login, une page admin, une page d'accueil et une page produit.",
-            "link":"https://github.com/adatechschool/projet-collectif-plateforme-de-vente-de-meubles-ventes-de-meubles/tree/main/backmeubles"  
+            "title":"Plateforme de vente de meubles-JAVA, MySql, API REST avec Spring/React",
+            "description":"Projet en deux groupes de 5 sur 7 jours, un groupe Front et un groupe Back avec échange en milieu de projet. Architecture MVC, création d'une API REST pour dialoguer entre les deux groupes. La plateforme gère une page login, une page admin, une page d'accueil et une page produit.",
+            "link":"https://github.com/ClaraJacot/projet-collectif-plateforme-de-vente-de-meubles-ventes-de-meubles"  
+        },
+        {
+            "id":"7",
+            "src": "./img/mern.png",
+            "title":"LezMoviesDatabase - Petit projet MERN (MongoDb, Express, Node.js, React)",
+            "description":"Projet personnel développé sur 2 jours pour tester MongoDB et Node.js/Express. Le but : créer une interface graphique pour une base de données de films. Possibilité d'ajouter, modifier ou effacer un film, ou de les trier par ordre alphabétique ou par année de sortie.",
+            "link":"https://github.com/ClaraJacot/LezDataBase"
+        },
+        {
+            "id":"8",
+            "src": "./img/microblogging.png",
+            "title":"Mignanimo - Projet collectif de site de microblogging Laravel/PostgrSQL",
+            "description":"Projet sur 7 jours à 3 personnes. Utilisation de Laravel en full stack avec Blade et Tailwind pour le Front. Architecture MVC et POO avec Eloquent ORM. Breeze pour l'authentification. Base de donnée PostgrSQL avec PGAdmin, Environnment Docker. Partage d'images d'animaux mignons!",
+            "link":"https://github.com/ClaraJacot/Projet-Collectif-Microblogging"
+        },
+        {
+            "id":"9",
+            "src": "./img/mobile.png",
+            "title": "Cosurf - Projet collectif d'appli mobile en Kotlin/Golang",
+            "description": "Projet mobile de 2 semaines en groupe de trois. Utlilisation de Kotlin avec Jetpack Compose pour le front, création d'API Rest en GO, bdd JSON. Partage des meilleurs spots de surf au monde",
+            "link":"https://github.com/ClaraJacot/mobile"
         }
+
     ]
 }

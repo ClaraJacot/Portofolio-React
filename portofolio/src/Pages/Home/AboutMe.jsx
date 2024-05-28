@@ -12,7 +12,7 @@ export default function AboutMe(){
                     Je viens du milieu de la recherche universitaire en Sociologie, où j'ai effectué deux MASTER. J'ai également une Licence en Histoire de l'art et un CAP Cuisine. En parallèle j'ai travaillé presque 10 ans dans le milieu périscolaire.
                     </p>
                     <p className="hero-section-description">
-                    Geek et gameuse depuis longtemps, je n'avais pourtant pas envisagé l'informatique comme voie professionnelle. France Travail et Social Builder m'ont fait connaitre la programmation et je n'ai plus eu de doutes! C'est ce que je veux faire au quotidien, en le mettant au service de valeurs ambitieuses. 
+                    Geek et gameuse depuis longtemps, je n'avais pourtant pas encore envisagé l'informatique comme voie professionnelle. J'ai mis un pied dans la programmation grâce à France Travail et Social Builder, et je n'ai plus eu de doutes! C'est ce que je veux faire au quotidien, en le mettant au service de valeurs ambitieuses. 
                     </p>
                 </div>
             </div>
